@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap'); 
+
+:root {
+    --primary-color: #356eaa;
+    --secondary-color: #18394d;
+    --accent1-color: #664e37;
+    --accent2-lcolor: #f5eee6;
+    --heading-font: "Kranky" sans;
+    --paragraph-font: "Montserrat" sans;
+    --nav-background-color: #f5eee6;
+    --nav-link-color: #356eaa;
+    --nav-hover-link-color: #664e37;
+    --nav-hover-background-color: #18394d;
+    --text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box: center;
+}
+
+body {
+    font-family: "Montserrat", sans;
+}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a {
+    display: inline;
+}
+
+.hero {
+    position: relative;
+}
+hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+h1{
+    font-family: "Kranky", sans;
+    font-weight: 900;
+    color: #18394d;
+    background-color:#f5eee6;
+    padding: 5px;
+    position: absolute;
+    font-size: 3.0rem;
+    top: 5px;
+    left: 25px;
+    right: 10px;
+    width: 100%;
+    opacity: 0.5;
+    text-align:center;
+
+}
+
+article{
+    position: absolute;
+    top: 350px;
+    left: 815px;
+    background-color: #f5eee6;
+    text-align: center;
+}
+
+article img {
+    float: right;
+    width: 100 px;
+    padding: 3px;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    text-align: center;
+}
+h2{
+    font-family: "Kranky", sans-serif;
+    font-weight: 800;
+    color: #18394d; 
+}
+
+h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 1.00em;
+    margin-inline-start: 8px;
+    margin-inline-end: 8px;
+    unicode-bidi: isolate;
+}
+
+p{
+    font-family: "Montserratt" sans-serif;
+    font-weight: 800;
+    color:#18394d;
+}
+
+img {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+nav a img {
+    display: inline;
+}
+
+footer {
+    color: #664e37
+}
+
+footer {
+    display: inline;
+    unicode-bidi: isolate;
+    text-decoration: none;
+}
+    
+
+
