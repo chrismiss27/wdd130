@@ -213,7 +213,7 @@ footer {
 }
 
 .socialmedialinks img{
-    display: inline-flexbox;
+    display: flex-box inline;
     grid-column: 1 / 4;
     float: right;
     margin: 10px;
