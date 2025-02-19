@@ -7,7 +7,7 @@
     --accent1-color: #664e37;
     --accent2-lcolor: #f5eee6;
     --heading-font: "Kranky" sans;
-    --paragraph-font: "Montserrat" sans;
+    --paragraph-font: "Montserrat";
     --nav-background-color: #f5eee6;
     --nav-link-color: #356eaa;
     --nav-hover-link-color: #664e37;
@@ -146,7 +146,7 @@ h2 {
 }
 
 p{
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     font-weight: 800;
     color:#18394d;
 }
@@ -218,7 +218,7 @@ footer {
 }
 
 .socialmedialinks img{
-    display: flex-box inline;
+    display: flex inline;
     grid-column: 1 / 4;
     float: right;
     margin: 10px;
