@@ -295,6 +295,26 @@ button{
     
 }
 
+table, th, td{
+    border: 1px solid;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.text-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    border: 50rem;
+    width: 75%;
+    height: auto;
+    float: center;
+    object-position: center;
+    text-align: center;
+    align-self: center;
+
+}
 
 
     
